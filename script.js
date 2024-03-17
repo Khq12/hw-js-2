@@ -4,7 +4,7 @@
 
 var age=+prompt("Enter your age: ")
 
-if (age > 0 && age < 18){
+if (age > 0 && age <= 18){
     alert("you're still young ")
 }
 
@@ -36,11 +36,11 @@ if (time > 0 && time <= 4) {
     alert(time+ " часа утра")
 }
 
-if (time >= 12 && time <= 17) {
+else if (time >= 12 && time <= 17) {
     alert((time-12)+ " часа дня")
 }
 
-if (time > 17 && time <= 23) {
+else if (time > 17 && time <= 23) {
     alert((time-12)+ " часа вечера")
 }
 
