@@ -28,7 +28,7 @@ if (time==0){
     alert("полночь!!!!!")
 }
 
-if (time > 0 && time <= 4) {
+else if (time > 0 && time <= 4) {
     alert(time+ " часа ночи")
 }
 
